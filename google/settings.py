@@ -1,7 +1,6 @@
 
 INSTALLED_APPS = [
    'social_django',
-#   'oauthapp',
    'django.contrib.admin',
    'django.contrib.auth',
    'django.contrib.contenttypes',
