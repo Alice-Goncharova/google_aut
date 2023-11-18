@@ -15,4 +15,4 @@ jobs:
           pip install pylint  # установка pylint для проверки стиля кода
       - name: Run pylint
         run: |
-          pylint .
+          pylint google
