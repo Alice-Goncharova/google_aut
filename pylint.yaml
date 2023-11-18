@@ -8,11 +8,11 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: '3.11'  
+          python-version: '3.11'
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pylint  # установка pylint для проверки стиля кода
       - name: Run pylint
         run: |
-          pylint your_code.py  # замените на ваш файл или директорию для проверки стиля кода
+          pylint manage.py
